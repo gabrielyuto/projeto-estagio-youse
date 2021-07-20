@@ -20,33 +20,50 @@ opcao2 = [a2, b2, c2]
 gabarito = [2, 1, 2]
 
 contador = 0
-vida = 3
+vida = 2
+# ************************** Main ******************************
+#def teste
+    x = 0   
+    while x < 3 && vida > 0  
+        #print "Caso queira sair, digite 0 \n" 
+        puts perguntas[x]
+        puts opcao1[x]
+        puts opcao2[x]
 
+        puts "Resposta: "
+        resp = gets.chomp.to_i
 
-3.times do |index|
-    #print "Caso queira sair, digite 0 \n" 
-    puts perguntas[index]
-    puts opcao1[index]
-    puts opcao2[index]
-
-    puts "Resposta: "
-    resp = gets.chomp.to_i
-
-    if resp == gabarito[index]
-        print "Parabéns, você acertou! \n"
-        contador += 1
-    else
-        print "Você errou \n"
-        vida = vida - 1
+        if resp == 2 or resp == 1
+            if resp == gabarito[x]
+                print "Parabéns, você acertou! \n"
+                contador += 1
+            else
+                print "Você errou \n"
+                vida = vida - 1
+            end
+    
+            print "Você está com #{contador} ponto(s) \n"
+            print "Você ainda possui #{vida} vida(s) \n"
+            print "\n"
+            print "**************************************** \n"
+            
+            x += 1    
+        
+        else
+            print "Opção Inválida. Tente novamente \n"
+            print "**************************************** \n"
+            x = x
+        end     
+        
     end
+#end
 
-    print "Você está com #{contador} ponto(s) \n"
-    print "Você ainda possui #{vida} vida(s) \n"
-    print "\n"
-    print "**************************************** \n"
+if vida == 0
+    print "Voce perdeu: vida = #{vida} \n"
 end
 
 puts "Total de ponto(s): #{contador} \n"
 puts "Total de vida(s): #{vida} \n"
+
 
 
