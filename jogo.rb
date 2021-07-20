@@ -7,11 +7,13 @@ nivel = gets.chomp.to_i
 
     case nivel
         when 1
+            puts "Você escolheu o nível #{nivel}"
         when 2
+            puts "Você escolheu o nível #{nivel}"
         when 3
+            puts "Você escolheu o nível #{nivel}"
         else
             puts "A sua escolha não está entre as opções."   
     end
 
-puts "Você escolheu o nível #{nivel}"
 
