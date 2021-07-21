@@ -1,3 +1,4 @@
+def nivel_intermediario
 #Perguntas
 a = "A que temperatura a água ferve? \n "
 b = "Qual o planeta mais próximo do Sol? \n "
@@ -230,3 +231,4 @@ vida = 3
 
         puts "Total de ponto(s): #{contador} \n"
 puts "Total de vida(s): #{vida} \n"
+end

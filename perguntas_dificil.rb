@@ -1,3 +1,4 @@
+def nivel_dificil
 #Perguntas
 a = "Qual das alternativas apresenta os Presidentes do Brasil em ordem de sucessão? \n "
 b = "Qual destas frases foi dita pelo Papa Francisco? \n "
@@ -232,3 +233,4 @@ vida = 3
 
         puts "Total de ponto(s): #{contador} \n"
 puts "Total de vida(s): #{vida} \n"
+end
