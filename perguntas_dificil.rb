@@ -200,7 +200,7 @@ vida = 3
     end
     #end
     
-    if vida == 0 && sair = 1
+    if vida == 0 && sair == 1
         print "******* VOCÊ SAIU DO JOGO! ATÉ LOGO! ******* \n"
     
     elsif vida == 0     
@@ -231,6 +231,5 @@ vida = 3
     end
      
 
-        puts "Total de ponto(s): #{contador} \n"
-puts "Total de vida(s): #{vida} \n"
+
 end
