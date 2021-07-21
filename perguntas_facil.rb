@@ -1,4 +1,4 @@
-
+def nivel_facil
 a = "Qual a montanha mais alta do mundo?\n "
 b = "Que país tem o formato de uma bota? \n"
 c = "O que é mais pesado: 1 quilo de algodão ou 1 quilo de ferro? \n"
@@ -232,6 +232,6 @@ end
 
 puts "Total de ponto(s): #{contador} \n"
 puts "Total de vida(s): #{vida} \n"
-
+end
 
 
