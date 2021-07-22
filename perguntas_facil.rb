@@ -1,3 +1,4 @@
+`require_relative 'Main'`
 def nivel_facil
 a = "Qual a montanha mais alta do mundo?\n "
 b = "Que país tem o formato de uma bota? \n"
@@ -231,5 +232,3 @@ elsif vida == 0
 end
 
 end
-
-

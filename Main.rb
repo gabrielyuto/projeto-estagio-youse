@@ -3,7 +3,9 @@
 require_relative 'perguntas_intermediaria'
 require_relative 'perguntas_dificil'
 require_relative 'perguntas_facil'
-print "Bem vindo ao Jogo do Bzão \n"
+puts "Qual o seu nome?"
+nome=gets
+print "Olá #{nome}Bem vindo ao Jogo do Bzão \n"
 puts "Escolha o nível de dificuldade: \n1-Fácil\n2-Intermediário\n3-Dificil"
 nivel = gets.chomp.to_i
 
