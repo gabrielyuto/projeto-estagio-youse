@@ -20,7 +20,7 @@ e1 = "1 - Pavão \n"
 f1 = "1 - Tratamento das doenças relacionadas a nariz, ouvido e garganta \n"
 g1 = "1 - Handebol \n"
 h1 = "1 - Independência do Brasil \n"
-i1= "1 -  Nazaré\n"
+i1 = "1 -  Nazaré\n"
 j1 = "1 - Inglês e mandarim chinês \n"
 
 # Opcao 2

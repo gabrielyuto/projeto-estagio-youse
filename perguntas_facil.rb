@@ -1,3 +1,4 @@
+`require_relative 'Main'`
 def nivel_facil
 a = "Qual a montanha mais alta do mundo?\n "
 b = "Que país tem o formato de uma bota? \n"
@@ -233,3 +234,4 @@ end
 end
 
 
+nivel_facil
