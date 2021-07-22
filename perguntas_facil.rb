@@ -232,6 +232,3 @@ elsif vida == 0
 end
 
 end
-
-
-nivel_facil
