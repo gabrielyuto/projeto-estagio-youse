@@ -1,5 +1,5 @@
 # Sobre o jogo
-### Jogo de pergunta e respostas com 3 possibilidades de níveis:
+### Jogo de pergunta sobre conhecimentos gerais e respostas com 3 possibilidades de níveis:
 - Fácil
 - Intermediário
 - Difícil
