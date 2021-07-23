@@ -14,12 +14,12 @@ j = " Quais as duas línguas mais faladas no mundo? \n "
 a1 = "1 - 200 ºC \n"
 b1 = "1 - Mercúrio \n"
 c1 = "1 - Super-Homem \n"
-d1 = "1- Floresta Amazônica \n"
+d1 = "1 - Mata Atlântica \n"
 e1 = "1 - Pavão \n"
 f1 = "1 - Tratamento das doenças relacionadas a nariz, ouvido e garganta \n"
 g1 = "1 - Handebol \n"
 h1 = "1 - Independência do Brasil \n"
-i1= "1 -  Nazaré\n"
+i1= "1 -  Belém de nazaré \n"
 j1 = "1 - Inglês e mandarim chinês \n"
 
 # Opcao 2
@@ -29,16 +29,29 @@ c2 = "2 - Batman \n"
 d2 = "2 - Caatinga \n"
 e2 = "2 - Avestruz  \n"
 f2 = "2 - Tratamento das doenças dos olhos \n"
-g2 = "2 - Vôlei \n"
+g2 = "2 - Golfe \n"
 h2 = "2 - Tiradentes \n"
-i2 = "2 - Belém \n"
+i2 = "2 - Nazaré \n"
 j2 = "2 - Inglês e português \n"
+
+#Opcao 3
+a3 = "3 - 180 ºC \n"
+b3 = "3 - Júpiter \n"
+c3 = "3 - Flash \n"
+d3 = "3 - Floresta Amazônica \n"
+e3 = "3 - Tartaruga-gigante \n"
+f3 = "3 - Tratamento das doenças da pele \n"
+g3 = "3 - Vôlei \n"
+h3 = "3 - Finados \n"
+i3 = "3 - Belém  \n"
+j3 = "3 - Inglês e espanhol \n"
 
 # Arrays
 perguntas = [a, b, c, d, e, f, g, h, i, j]
 opcao1 = [a1, b1, c1, d1, e1, f1, g1, h1, i1, j1]
 opcao2 = [a2, b2, c2, d2, e2, f2, g2, h2, i2, j2]
-gabarito = [2, 1, 1, 1, 2, 1, 2, 2, 2, 1 ]
+opcao3 = [a3, b3, c3, d3, e3, f3, g3, h3, i3, j3]
+gabarito = [2, 1, 1, 3, 2, 1, 3, 2, 3, 1]
 
 
 contador = 0
@@ -74,11 +87,12 @@ vida = 3
         puts perguntas[x]
         puts opcao1[x]
         puts opcao2[x]
+        puts opcao3[x]
 
         puts "Resposta: "
         resp = gets.chomp.to_i
 
-        if resp == 2 or resp == 1
+        if resp == 1 or resp == 2 or resp == 3
             if resp == gabarito[x]
                 print "░░█▀░░░░░░░░░░░▀▀███████░░░░
                 ░░█▌░░░░░░░░░░░░░░░▀██████░░░

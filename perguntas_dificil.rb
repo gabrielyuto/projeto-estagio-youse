@@ -8,39 +8,52 @@ f = "De quem é a famosa frase “Penso, logo existo”? \n "
 g = "Quais os planetas do sistema solar? \n "
 h = "Quais são os cromossomos que determinam o sexo masculino? \n "
 i = "Quais os nomes dos três Reis Magos? \n "
-j = "As pessoas de qual tipo sanguíneo são consideradas doadores universais? \n "
+j = "Quais o menor e o maior país do mundo? \n "
 
 #Opcao 1
 a1 = "1 - Dilma Rousseff, Lula, Jair Bolsonaro \n"
-b1 = "1 - Não existe mãe solteira. Mãe não é um estado civil \n"
+b1 = "1 - Prefiro ser um homem de paradoxos que um homem de preconceitos \n"
 c1 = "1 - Candidíase \n"
-d1 = "1 - verde, azul, vermelho e amarelo \n"
+d1 = "1 - azul, verde, amarelo e vermelho \n"
 e1 = "1 - Peste negra e covid-19 \n"
 f1 = "1 - Sócrates \n"
 g1 = "1 - Terra, Vênus, Saturno, Júpiter, Marte, Netuno, Mercúrio \n"
-h1 = "1 - Os Y \n"
+h1 = "1 - X e Y \n"
 i1= "1 - Belchior, Gaspar e Baltazar \n"
-j1 = "1 - Tipo A \n"
+j1 = "1 - Malta e Estados Unidos \n"
 
 
 # Opcao 2
 a2 = "2 - Dilma Rousseff, Michel Temer, Jair Bolsonaro \n"
 b2 = "2 - Ter fé é assinar uma folha em branco e deixar que Deus nela escreva o que quiser \n"
 c2 = "2 - Sífilis \n"
-d2 = "2 - azul, verde, amarelo e vermelho \n"
+d2 = "2 - verde, azul, vermelho e amarelo \n"
 e2 = "2 - Gripe espanhola e covid-19 \n"
-f2 = "2 - Descartes \n"
+f2 = "2 - Platão \n"
 g2 = "2 - Terra, Vênus, Saturno, Urano, Júpiter, Marte, Netuno, Mercúrio \n"
 h2 = "2 - Os X \n"
 i2 = "2 - Gaspar, Nicolau e Natanael \n"
-j2 = "2 - Tipo O \n"
+j2 = "2 - Vaticano e Rússia \n"
+
+#Opcao 3
+a3 = "3 - Dilma Rousseff, Lula, Michel Temer, Jair Bolsonaro \n"
+b3 = "3 - Não existe mãe solteira. Mãe não é um estado civil \n"
+c3 = "3 - Hepatite B \n"
+d3 = "3 - vermelho, amarelo, verde e azul \n"
+e3 = "3 - Cólera e covid-19 \n"
+f3 = "3 - Descartes \n"
+g3 = "3 - Júpiter, Marte, Mercúrio, Netuno, Plutão, Saturno, Sol, Terra, Urano, Vênus \n"
+h3 = "3 - Os Y \n"
+i3 = "3 - Belchior, Gaspar e Nataniel \n"
+j3 = "3 - Mônaco e Canadá \n"
 
 
 # Arrays
 perguntas = [a, b, c, d, e, f, g, h, i, j]
 opcao1 = [a1, b1, c1, d1, e1, f1, g1, h1, i1, j1]
 opcao2 = [a2, b2, c2, d2, e2, f2, g2, h2, i2, j2]
-gabarito = [2, 1, 2, 2, 1, 2, 2, 1, 1, 2]
+opcao3 = [a3, b3, c3, d3, e3, f3, g3, h3, i3, j3]
+gabarito = [2, 3, 2, 1, 1, 3, 2, 3, 1, ]
 
 
 contador = 0
@@ -76,11 +89,12 @@ vida = 3
         puts perguntas[x]
         puts opcao1[x]
         puts opcao2[x]
+        puts opcao3[x]
 
         puts "Resposta: "
         resp = gets.chomp.to_i
 
-        if resp == 2 or resp == 1
+        if resp == 1 or resp == 2 or resp == 3
             if resp == gabarito[x]
                 print "░░█▀░░░░░░░░░░░▀▀███████░░░░
                 ░░█▌░░░░░░░░░░░░░░░▀██████░░░

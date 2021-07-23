@@ -13,35 +13,48 @@ j = "Quem pintou Mona Lisa? \n"
 
 #Opcao 1
 a1 = "1 - Pico da Neblina \n"
-b1 = "1 - Itália \n"
+b1 = "1 - Portugal \n"
 c1 = "1 - Ferro \n"
 d1 = "1 - 365 dias \n"
 e1 = "1 - Nova, crescente, cheia e minguante \n"
 f1 = "1 - Saturno \n"
 g1 = "1 - 33 \n"
-h1 = "1- Smurfette \n"
-i1 = "1 - Sal de cozinha"
-j1 = "1 - Leonardo da Vinci \n"
+h1 = "1 - Smurfette \n"
+i1 = "1 - Sal de cozinha \n"
+j1 = "1 - Van Gogh \n"
 
 
 # Opcao 2
 a2 = "2 - Monte Everest \n"
 b2 = "2 - Mexico \n"
-c2 = "2 - Nenhum \n"
+c2 = "2 - Algodão \n"
 d2 = "2 - Aproximadamente 24 horas \n"
 e2 = "2 - Nova, cheia e superlua \n"
-f2 = "2 - Júpiter \n"
+f2 = "2 - Lua \n"
 g2 = "2 - 333 \n"
 h2 = "2 - Mônica \n"
 i2 = "2 - Fermento\n"
 j2 = "2 - Pablo Picasso \n"
+
+#Opcao 3
+a3 = "3 - Monte Chimborazo \n"
+b3 = "3 - Itália \n"
+c3 = "3 - Os dois possuem o mesmo peso\n"
+d3 = "3 - 7 dias \n"
+e3 = "3 - Nova, crescente, cheia, minguante e lua de sangue \n"
+f3 = "3 - Júpiter \n"
+g3 = "3 - 110 \n"
+h3 = "3 - Menino Maluquinho \n"
+i3 = "3 - Vinagre \n"
+j3 = "3 - Leonardo da Vinci \n"
 
 
 # Arrays
 perguntas = [a, b, c, d, e, f, g, h, i, j]
 opcao1 = [a1, b1, c1, d1, e1, f1, g1, h1, i1, j1]
 opcao2 = [a2, b2, c2, d2, e2, f2, g2, h2, i2, j2]
-gabarito = [2, 1, 2, 2, 1, 2, 1, 2, 1, 1]
+opcao3 = [a3, b3, c3, d3, e3, f3, g3, h3, i3, j3]
+gabarito = [2, 3, 3, 2, 1, 3, 1, 2, 1, 3 ]
 
 contador = 0
 vida = 3
@@ -76,11 +89,12 @@ vida = 3
         puts perguntas[x]
         puts opcao1[x]
         puts opcao2[x]
+        puts opcao3[x]
 
         puts "Resposta: "
         resp = gets.chomp.to_i
 
-        if resp == 2 or resp == 1
+        if resp == 1 or resp == 2 or resp == 3
             if resp == gabarito[x]
                 print "░░█▀░░░░░░░░░░░▀▀███████░░░░
                 ░░█▌░░░░░░░░░░░░░░░▀██████░░░
