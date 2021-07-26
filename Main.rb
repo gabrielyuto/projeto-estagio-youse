@@ -3,24 +3,62 @@
 require_relative 'perguntas_intermediaria'
 require_relative 'perguntas_dificil'
 require_relative 'perguntas_facil'
-puts "Qual o seu nome?"
+require_relative 'ascii'
+
+puts "QUAL O SEU NOME ?"
 nome=gets
-print "Olá #{nome}Bem vindo ao Jogo do Bzão \n"
+print "\n"
+print "********************************************** \n"
+print "                OLÁ #{nome} \n"
+print "          BEM VINDO AO JOGO DO BZÃO            \n"
+print "********************************************** \n"
+print "\n"
+welcome_ascii
+
+print "\n\n"
+print "*************************************** \n"
+print "*********** VAMOS COMEÇAR??? ********** \n"
+print "*************************************** \n"
+print "\n\n\n"
+print "------------------------------------ ORIENTAÇÕES -------------------------------------------- \n"
+print "----------------------------> Caso escolha sair, digite 0 <---------------------------------- \n"
+print "---> Cada pergunta possuí 2 alternativas. Selecione 1 ou 2 de acordo com a sua resposta! <--- \n"
+print "-----------> Caso seja escolhido uma opção inválida, a pergunta será repetida! <------------- \n"
+print "--------------------------------------------------------------------------------------------- \n"
+print "\n"
+print "*********************************** READY? <o __ O> GO! ************************************* \n"
+print "\n"  
 puts "Escolha o nível de dificuldade: \n1-Fácil\n2-Intermediário\n3-Dificil"
 nivel = gets.chomp.to_i
 
     case nivel
         when 1
-            puts "Você escolheu o nível #{nivel}"
+            print "\n"
+            print "................................................. \n"
+            puts "          VOCÊ ESCOLHEU O NÍVEL #{nivel}           \n"
+            print "................................................. \n"
+            print "\n"
             nivel_facil
         when 2
-            puts "Você escolheu o nível #{nivel}"
+            print "\n"
+            print "................................................. \n"
+            puts "           VOCÊ ESCOLHEU O NÍVEL #{nivel}          \n"
+            print "................................................. \n"
+            print "\n"
             nivel_intermediario
         when 3
-            puts "Você escolheu o nível #{nivel}"
+            print "\n"
+            print "................................................. \n"
+            puts "           VOCÊ ESCOLHEU O NÍVEL #{nivel}          \n"
+            print "................................................. \n"
+            print "\n"
             nivel_dificil
         else
-            puts "A sua escolha não está entre as opções."   
+            print "\n"
+            print "................................................. \n"
+            puts "       A sua escolha não está entre as opções      \n"
+            print "................................................. \n"
+            print "\n"   
     end
 
 
