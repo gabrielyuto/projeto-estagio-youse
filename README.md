@@ -1,4 +1,5 @@
-# Sobre o jogo
+# Bem Vindo
+## Sobre o jogo
 ### Jogo de pergunta sobre conhecimentos gerais e respostas com 3 possibilidades de níveis:
 - Fácil
 - Intermediário
