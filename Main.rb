@@ -1,15 +1,13 @@
 #vida = 3
 #contador = 0
-require_relative 'perguntas_intermediaria'
-require_relative 'perguntas_dificil'
 require_relative 'perguntas'
 require_relative 'ascii'
 
 puts "QUAL O SEU NOME ?"
-nome=gets
+NOME=gets
 print "\n"
 print "********************************************** \n"
-print "                OLÁ #{nome} \n"
+print "                OLÁ #{NOME} \n"
 print "          BEM VINDO AO JOGO DO BZÃO            \n"
 print "********************************************** \n"
 print "\n"
