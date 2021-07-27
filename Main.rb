@@ -2,7 +2,7 @@
 #contador = 0
 require_relative 'perguntas_intermediaria'
 require_relative 'perguntas_dificil'
-require_relative 'perguntas_facil'
+require_relative 'perguntas'
 require_relative 'ascii'
 
 puts "QUAL O SEU NOME ?"
@@ -29,36 +29,22 @@ print "\n"
 print "*********************************** READY? <o __ O> GO! ************************************* \n"
 print "\n"  
 puts "Escolha o nível de dificuldade: \n1-Fácil\n2-Intermediário\n3-Dificil"
-nivel = gets.chomp.to_i
+NIVEL = gets.chomp.to_i
 
-    case nivel
-        when 1
-            print "\n"
-            print "................................................. \n"
-            puts "          VOCÊ ESCOLHEU O NÍVEL #{nivel}           \n"
-            print "................................................. \n"
-            print "\n"
-            nivel_facil
-        when 2
-            print "\n"
-            print "................................................. \n"
-            puts "           VOCÊ ESCOLHEU O NÍVEL #{nivel}          \n"
-            print "................................................. \n"
-            print "\n"
-            nivel_intermediario
-        when 3
-            print "\n"
-            print "................................................. \n"
-            puts "           VOCÊ ESCOLHEU O NÍVEL #{nivel}          \n"
-            print "................................................. \n"
-            print "\n"
-            nivel_dificil
-        else
-            print "\n"
-            print "................................................. \n"
-            puts "       A sua escolha não está entre as opções      \n"
-            print "................................................. \n"
-            print "\n"   
+    if NIVEL<=3
+        print "\n"
+        print "................................................. \n"
+        puts "          VOCÊ ESCOLHEU O NÍVEL #{NIVEL}           \n"
+        print "................................................. \n"
+        print "\n"
+        perguntas_jogo
+        
+    else
+        print "\n"
+        print "................................................. \n"
+        puts "       A sua escolha não está entre as opções      \n"
+        print "................................................. \n"
+        print "\n"   
     end
 
 
