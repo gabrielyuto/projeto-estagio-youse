@@ -1,6 +1,7 @@
 require_relative 'ascii'
 require_relative 'perguntas'
 
+
 print "Qual o seu nome? "
 NOME=gets
 print "\n"
