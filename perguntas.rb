@@ -1,7 +1,6 @@
 def perguntas_jogo
   case NIVEL
     when 1
-  
               #Perguntas 1
       a = "Qual a montanha mais alta do mundo?\n "
       b = "Que país tem o formato de uma bota? \n"
@@ -171,7 +170,7 @@ def perguntas_jogo
       opcao1 = [a1, b1, c1, d1, e1, f1, g1, h1, i1, j1]
       opcao2 = [a2, b2, c2, d2, e2, f2, g2, h2, i2, j2]
       opcao3 = [a3, b3, c3, d3, e3, f3, g3, h3, i3, j3]
-      gabarito = [2, 3, 2, 1, 1, 3, 2, 3, 1, ]
+      gabarito = [2, 3, 2, 1, 1, 3, 2, 3, 1, 2 ]
  
   end
   contador = 0
@@ -182,13 +181,15 @@ def perguntas_jogo
   print "******* VAMOS COMEÇAR??? *******  \n\n"
   
   while x < 10 && vida > 0  
+
+
     #print "Caso queira sair, digite 0 \n" 
     print "******* #{x+1}ª PERGUNTA *******  \n\n"
     puts perguntas[x]
     puts opcao1[x]
     puts opcao2[x]
     puts opcao3[x]
-  
+
     puts "Resposta: "
     resp = gets.chomp.to_i
   
@@ -210,6 +211,7 @@ def perguntas_jogo
           
       x += 1    
       
+
     elsif resp == 0
       sair_ascii
       vida = 0
@@ -219,6 +221,7 @@ def perguntas_jogo
       print "**************************************** \n"
       x = x
     end
+
 
   end
   #end
@@ -234,4 +237,5 @@ def perguntas_jogo
     ganhou_ascii
     print "******* PARABÉNS #{NOME}! VOCÊ GANHOU! ******* \n"            
   end
+
 end
