@@ -3,7 +3,7 @@ require_relative 'perguntas'
 
 
 print "Qual o seu nome? "
-NOME=gets
+NOME=gets.chomp.upcase
 print "\n"
 print "********************************************** \n"
 print "                OLÁ #{NOME} \n"
@@ -14,14 +14,14 @@ welcome_ascii
 
 print "\n\n"
 print "*************************************** \n"
-print "*********** VAMOS COMEÇAR??? ********** \n"
+print "**** #{NOME} VAMOS COMEÇAR??? **** \n"
 print "*************************************** \n"
 print "\nAperte [ENTER] para continuar" 
 comeco=gets
 print "\n\n\n"
 print "------------------------------------ ORIENTAÇÕES -------------------------------------------- \n"
 print "----------------------------> Caso escolha sair, digite 0 <---------------------------------- \n"
-print "---> Cada pergunta possuí 2 alternativas. Selecione 1 ou 2 de acordo com a sua resposta! <--- \n"
+print "---> Cada pergunta possuí 3 alternativas. Selecione 1, 2 ou 3 de acordo com a sua resposta! <--- \n"
 print "-----------> Caso seja escolhido uma opção inválida, a pergunta será repetida! <------------- \n"
 print "--------------------------------------------------------------------------------------------- \n"
 print "\n"

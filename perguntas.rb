@@ -227,7 +227,7 @@ def perguntas_jogo
   #end
   
   if vida == 0 && sair == 1
-    print "*******  VOCÊ SAIU DO JOGO! ATÉ LOGO! ******* \n"
+    print "*******  VOCÊ SAIU DO JOGO! ATÉ LOGO #{NOME}! ******* \n"
   
   elsif vida == 0     
     perdeu_ascii
