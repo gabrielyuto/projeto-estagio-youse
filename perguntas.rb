@@ -191,6 +191,16 @@ def perguntas_jogo
       gabarito = [3, 1, 2, 1, 3, 2, 1, 3, 1, 3 ]
  
   end
+
+  def jogar_novamente
+    puts "Você deseja jogar novamente? (Y/N):"
+    reload = gets.chomp.upcase
+    if reload == "N"
+      puts "*** GAME OVER!!! ***"
+      @valida = "False"  
+    end
+  end
+
   contador = 0
   vida = 3
   # ************************** Main ******************************
@@ -245,15 +255,18 @@ def perguntas_jogo
   #end
   
   if vida == 0 && sair == 1
-    print "*******  VOCÊ SAIU DO JOGO! ATÉ LOGO #{NOME}! ******* \n"
-  
+    puts "*******  VOCÊ SAIU DO JOGO! ATÉ LOGO #{NOME}! ******* \n"
+    jogar_novamente
+
   elsif vida == 0     
     perdeu_ascii
-    print "******* VOCE PERDEU. VIDA: #{vida} ******* \n"
+    puts "******* VOCE PERDEU. VIDA: #{vida} ******* \n"
+    jogar_novamente
   
   elsif contador >= 7
     ganhou_ascii
-    print "******* PARABÉNS #{NOME}! VOCÊ GANHOU! ******* \n"            
+    print "******* PARABÉNS #{NOME}! VOCÊ GANHOU! ******* \n"    
+    jogar_novamente        
   end
 
 end
