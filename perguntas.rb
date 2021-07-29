@@ -235,7 +235,7 @@ def perguntas_jogo
       vida = 0
       sair = 1    
     else
-      print "*******  Opção Inválida. Tente novamente ******* \n"
+      print "*******  Opção Inválida #{NOME}. Tente novamente ******* \n"
       print "**************************************** \n"
       x = x
     end
