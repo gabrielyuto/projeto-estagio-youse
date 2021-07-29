@@ -62,61 +62,6 @@ def perguntas_jogo
   
     when 2
               #Perguntas
-      a = "A que temperatura a água ferve? \n "
-      b = "Qual o planeta mais próximo do Sol? \n "
-      c = "Kryptonita é a fraqueza de qual super-herói? \n "
-      d = "Qual a maior floresta tropical do mundo? \n"
-      e = "Que animal põe o maior ovo? \n "
-      f = "Qual a especialidade do otorrinolaringologista? \n "
-      g = " Depois do futebol, qual o esporte mais popular no Brasil? \n "
-      h = " O que comemora no feriado do dia 21 de abril no Brasil? \n "
-      i = " Jesus nasceu em Belém ou Nazaré? \n "
-      j = " Quais as duas línguas mais faladas no mundo? \n "
-  
-      #Opcao 1
-      a1 = "1 - 200 ºC \n"
-      b1 = "1 - Mercúrio \n"
-      c1 = "1 - Super-Homem \n"
-      d1 = "1 - Mata Atlântica \n"
-      e1 = "1 - Pavão \n"
-      f1 = "1 - Tratamento das doenças relacionadas a nariz, ouvido e garganta \n"
-      g1 = "1 - Handebol \n"
-      h1 = "1 - Independência do Brasil \n"
-      i1= "1 -  Belém de nazaré \n"
-      j1 = "1 - Inglês e mandarim \n"
-  
-      # Opcao 2
-      a2 = "2 - 100 ºC  \n"
-      b2 = "2 - Marte \n"
-      c2 = "2 - Batman \n"
-      d2 = "2 - Caatinga \n"
-      e2 = "2 - Avestruz  \n"
-      f2 = "2 - Tratamento das doenças dos olhos \n"
-      g2 = "2 - Golfe \n"
-      h2 = "2 - Tiradentes \n"
-      i2 = "2 - Nazaré \n"
-      j2 = "2 - Inglês e português \n"
-  
-      #Opcao 3
-      a3 = "3 - 180 ºC \n"
-      b3 = "3 - Júpiter \n"
-      c3 = "3 - Flash \n"
-      d3 = "3 - Floresta Amazônica \n"
-      e3 = "3 - Tartaruga-gigante \n"
-      f3 = "3 - Tratamento das doenças da pele \n"
-      g3 = "3 - Vôlei \n"
-      h3 = "3 - Finados \n"
-      i3 = "3 - Belém  \n"
-      j3 = "3 - Inglês e espanhol \n"
-  
-     # Arrays
-      perguntas = [a, b, c, d, e, f, g, h, i, j]
-      opcao1 = [a1, b1, c1, d1, e1, f1, g1, h1, i1, j1]
-      opcao2 = [a2, b2, c2, d2, e2, f2, g2, h2, i2, j2]
-      opcao3 = [a3, b3, c3, d3, e3, f3, g3, h3, i3, j3]
-      gabarito = [2, 1, 1, 3, 2, 1, 3, 2, 3, 1]
-   
-  when 3
       a = "Qual das alternativas apresenta os Presidentes do Brasil em ordem de sucessão? \n "
       b = "Qual destas frases foi dita pelo Papa Francisco? \n "
       c = "Qual a doença sexualmente transmissível que virou surto no Brasil em 2017? \n "
@@ -127,7 +72,7 @@ def perguntas_jogo
       h = "Quais são os cromossomos que determinam o sexo masculino? \n "
       i = "Quais os nomes dos três Reis Magos? \n "
       j = "Quais o menor e o maior país do mundo? \n "
-      
+  
       #Opcao 1
       a1 = "1 - Dilma Rousseff, Lula, Jair Bolsonaro \n"
       b1 = "1 - Prefiro ser um homem de paradoxos que um homem de preconceitos \n"
@@ -139,7 +84,7 @@ def perguntas_jogo
       h1 = "1 - X e Y \n"
       i1= "1 - Belchior, Gaspar e Baltazar \n"
       j1 = "1 - Malta e Estados Unidos \n"  
-      
+  
       # Opcao 2
       a2 = "2 - Dilma Rousseff, Michel Temer, Jair Bolsonaro \n"
       b2 = "2 - Ter fé é assinar uma folha em branco e deixar que Deus nela escreva o que quiser \n"
@@ -163,6 +108,79 @@ def perguntas_jogo
       h3 = "3 - Os Y \n"
       i3 = "3 - Belchior, Gaspar e Nataniel \n"
       j3 = "3 - Mônaco e Canadá \n"
+  
+     # Arrays
+     perguntas = [a, b, c, d, e, f, g, h, i, j]
+     opcao1 = [a1, b1, c1, d1, e1, f1, g1, h1, i1, j1]
+     opcao2 = [a2, b2, c2, d2, e2, f2, g2, h2, i2, j2]
+     opcao3 = [a3, b3, c3, d3, e3, f3, g3, h3, i3, j3]
+     gabarito = [2, 3, 2, 1, 1, 3, 2, 3, 1, 2 ]
+   
+  when 3
+      a = "O pai do padre é filho do meu pai. O que eu sou do Padre? \n "
+      
+
+      b = "Três suspeitos de praticar um crime fazem as seguintes declarações:\nJoão: Carlos é o criminoso\nCarlos: Paulo é o criminoso\nPaulo: Carlos está mentindo\nSabendo que apenas um dos suspeitos mente, determine quem é o criminoso \n "
+
+
+      c ="Era uma vez a história de quatro homens: João, José, Jacinto e Joel.\nOs quatro eram construtores de barcos e em quatro dias conseguiam construir quatro embarcações.\nQuanto tempo demoraria um dos quatro homens para construir um único barco? \n "
+
+
+      d = "Há um grave problema com o relógio da torre da aldeia:\nPor um motivo ainda não compreendido pela população, o relógio para um minuto a cada dez minutos.\nConsegue adivinhar quanto tempo demora o ponteiro dos minutos a dar uma volta completa ao relógio? \n "
+
+      
+      e = "Olá! Eu sei que não sabe quem sou, mas nós somos da mesma família:\no meu pai é irmão da sua irmã. Consegue adivinhar que parente sou eu: primo, sobrinho, tio ? \n "
+
+
+      f = "Na escola primária da cidade, a professora Alice tem um quebra-cabeças para os meninos do terceiro ano.\nPara fazer uma pausa das contas de multiplicação, ela distribuiu uma lista com seis palavras:\nAgate, Agitate, Gates, Stags, Stage, Grate.\nDepois lançou-lhes um desafio: quais destas palavras são compostas pelas mesmas letras? \n "
+
+
+      g = "A senhora Adelaide tem um galinheiro muito grande e agora pondera começar a vender os ovos na aldeia onde vive.\nPrecisa então de fazer contas à vida e quer saber quantos ovos terá para vender.\nEla sabe que uma galinha e meia põem um ovo e meio num dia e meio. Quantos ovos deverão por sete galinhas em seis dias? \n "
+
+
+      h = "Num belo domingo de primavera, três homens, as respetivas mulheres e um primo de uma delas \n– que era viúvo – saíram de carro ao meio-dia para um fazer um piquenique no pinhal.\nAo fim de três quilómetros cruzaram-se com dois homens e uma criança cujo carro se tinha avariado no meio da estrada.\n“Isso é mesmo má sorte”, comentou o homem que ia a conduzir o primeiro carro. Chegaram ao pinhal à uma da tarde,\nonde encontraram um guarda muito velho na companhia do filho.\nEstenderam a toalha no chão e começaram a almoçar. Quantas pessoas foram mencionadas nesta história? \n "
+      
+
+      i = "Alice, Bruno, Carlos e Denise são as quatro primeiras pessoas de uma fila, não necessariamente nesta ordem. João olha para os quatro e afirma:\nBruno e Carlos estão em posições consecutivas na fila;\nAlice está entre Bruno e Carlos na fila.\nEntretanto, as duas afirmações de João são falsas. Sabe-se que Bruno é o terceiro da fila.\nO segundo da fila é: \n"
+
+
+      j = "Se hoje é sábado, amanhã não trabalharei.” A negação dessa afirmação é: \n "
+      
+      #Opcao 1
+      a1 = "1 - Pai \n"
+      b1 = "1 - Carlos \n"
+      c1 = "1 - Cada um dos quatro homens demoraria um dia para construir um único barco \n"
+      d1 = "1 - O ponteiro dos minutos precisa de 65 minutos para dar uma volta completa ao relógio \n"
+      e1 = "1 - Eu sou seu tio \n"
+      f1 = "1 - As palavras que se escrevem com as mesmas letras são “Gates” e “Agitate” \n"
+      g1 = "1 - Em seis dias, sete galinhas põem 28 ovos \n"
+      h1 = "1 - Em toda a história foram mencionadas onze pessoas \n"
+      i1= "1 - Denise \n"
+      j1 = "1 - Hoje não é sábado ou amanhã trabalharei \n"  
+      
+      # Opcao 2
+      a2 = "2 - Neto \n"
+      b2 = "2 - João \n"
+      c2 = "2 - Cada um dos quatro homens demoraria quatro dias para construir um único barco \n"
+      d2 = "2 - O ponteiro dos minutos precisa de 60 minutos para dar uma volta completa ao relógio. \n"
+      e2 = "2 - Eu sou seu primo \n"
+      f2 = "2 - As palavras que se escrevem com as mesmas letras são “Gates” e “Stage” \n"
+      g2 = "2 - Em seis dias, sete galinhas põem 21 ovos \n"
+      h2 = "2 - Em toda a história foram mencionadas dez pessoas \n"
+      i2 = "2 - Carlos \n"
+      j2 = "2 - Se hoje não é sábado, amanhã não trabalharei \n"
+  
+      #Opcao 3
+      a3 = "3 - Tio \n"
+      b3 = "3 - Paulo \n"
+      c3 = "3 - Cada um dos quatro homens demoraria oito dias para construir um único barco \n"
+      d3 = "3 - O ponteiro dos minutos precisa de 120 minutos para dar uma volta completa ao relógio \n"
+      e3 = "3 - Eu sou seu sobrinho \n"
+      f3 = "3 - As palavras que se escrevem com as mesmas letras são “Agate” e “Stage” \n"
+      g3 = "3 - Em seis dias, sete galinhas põem 24 ovos \n"
+      h3 = "3 - Em toda a história foram mencionadas doze pessoas \n"
+      i3 = "3 - Alice \n"
+      j3 = "3 - Hoje é sábado e amanhã trabalharei \n"
       
       
       # Arrays
@@ -170,7 +188,7 @@ def perguntas_jogo
       opcao1 = [a1, b1, c1, d1, e1, f1, g1, h1, i1, j1]
       opcao2 = [a2, b2, c2, d2, e2, f2, g2, h2, i2, j2]
       opcao3 = [a3, b3, c3, d3, e3, f3, g3, h3, i3, j3]
-      gabarito = [2, 3, 2, 1, 1, 3, 2, 3, 1, 2 ]
+      gabarito = [3, 1, 2, 1, 3, 2, 1, 3, 1, 3 ]
  
   end
   contador = 0
