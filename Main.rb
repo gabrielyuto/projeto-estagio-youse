@@ -28,24 +28,28 @@ print "\n"
 print "*********************************** READY? <o __ O> GO! ************************************* \n"
 print "\nAperte [ENTER] para continuar" 
 prox=gets
-puts "Escolha o nível de dificuldade: \n1-Fácil\n2-Intermediário\n3-Dificil"
-print "Nível: "
-NIVEL = gets.chomp.to_i
 
-  if NIVEL<=3
-    print "\n"
-    print "................................................. \n"
-    puts "          Você escolheu o nível #{NIVEL}           \n"
-    print "................................................. \n"
-    print "\n"
-    perguntas_jogo
-        
-  else
-    "\n"
-    print "................................................. \n"
-    puts "       A sua escolha não está entre as opções      \n"
-    print "................................................. \n"
-    print "\n"   
-  end
+loop do 
+  puts "Escolha o nível de dificuldade: \n1-Fácil\n2-Intermediário\n3-Dificil"
+  print "Nível: "
+  NIVEL = gets.chomp.to_i
 
+    if NIVEL<=3 and NIVEL>0
+      print "\n"
+      print "................................................. \n"
+      puts "          Você escolheu o nível #{NIVEL}           \n"
+      print "................................................. \n"
+      print "\n"
+      perguntas_jogo
+
+    else
+      "\n"
+      print "................................................. \n"
+      puts "       A sua escolha não está entre as opções      \n"
+      print "................................................. \n"
+      print "\n"
+    end
+    
+    break if @valida == "False" 
+end
 
