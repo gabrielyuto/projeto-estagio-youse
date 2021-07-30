@@ -40,6 +40,8 @@ loop do
       puts "          Você escolheu o nível #{NIVEL}           \n"
       print "................................................. \n"
       print "\n"
+      comecar
+      print "\n"
       perguntas_jogo
 
     else
