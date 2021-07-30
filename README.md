@@ -29,10 +29,10 @@ git@github.com:gabrielyuto/show_do_bezao.git
 - Ruby
 
 ### Desenvolvido por:
-- Gabriel Munakata
-- Jaqueline Borba
-- Kariane Coura
-- Maria Falcão
+- @gabrielyuto
+- @jaquelineborba
+- @kariane 
+- @MariaFalcao
 
 ## Acesso ao Miro: [Aqui!](https://miro.com/app/board/o9J_l5jOEQ0=/)
 
