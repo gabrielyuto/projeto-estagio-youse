@@ -196,7 +196,9 @@ def perguntas_jogo
     puts "Você deseja jogar novamente? (Y/N):"
     reload = gets.chomp.upcase
     if reload == "N"
+      puts " "
       puts "*** GAME OVER!!! ***"
+      game_over
       @valida = "False"  
     end
   end
