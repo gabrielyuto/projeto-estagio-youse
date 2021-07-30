@@ -1,4 +1,15 @@
 # Bem Vindo
+## Estrutura dos arquivos
+
+<div align="center">
+    <img src="./images/estrutura.png" width="300px" height="200"/> 
+</div>
+
+##  Fluxo do jogo
+<div align="center">
+    <img src="./images/fluxo_jogo.png" width="600px" height="230" /> 
+</div>
+
 ## Sobre o jogo
 ### Jogo de pergunta sobre conhecimentos gerais e respostas com 3 possibilidades de níveis:
 - Fácil
@@ -24,3 +35,4 @@ git@github.com:gabrielyuto/show_do_bezao.git
 - Maria Falcão
 
 ## Acesso ao Miro: [Aqui!](https://miro.com/app/board/o9J_l5jOEQ0=/)
+
