@@ -1,4 +1,4 @@
-# Bem Vindo
+# Show do Bzao - Jogo de perguntas e respontas
 ## Estrutura dos arquivos
 
 <div align="center">
